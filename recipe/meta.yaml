@@ -1,6 +1,6 @@
 {% set name = "adaptive" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "b769f95c864aa0a25afbbf02b55c89d335f27aa514877de8bb0312955c0465e0" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "99767ad1903d32656310e67881142180de8e55182e2a2441726277c09191b659" %}
 
 package:
   name: {{ name|lower }}
@@ -31,6 +31,7 @@ requirements:
     - jupyter_client >=5.2.2
     - sortedcontainers
     - matplotlib
+    - distributed  # [win]
 
 test:
   imports:
