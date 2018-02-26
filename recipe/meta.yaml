@@ -31,7 +31,6 @@ requirements:
     - jupyter_client >=5.2.2
     - sortedcontainers
     - matplotlib
-    - distributed
 
 test:
   imports:
