@@ -20,14 +20,16 @@ and fine-tune the adaptive sampling algorithm.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/adaptive-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/adaptive-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/adaptive-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/adaptive-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/adaptive-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/adaptive-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/adaptive-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/adaptive-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/adaptive-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/adaptive-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/adaptive-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/adaptive-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/adaptive/badges/version.svg)](https://anaconda.org/conda-forge/adaptive)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/adaptive/badges/downloads.svg)](https://anaconda.org/conda-forge/adaptive)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-adaptive-green.svg)](https://anaconda.org/conda-forge/adaptive) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/adaptive.svg)](https://anaconda.org/conda-forge/adaptive) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/adaptive.svg)](https://anaconda.org/conda-forge/adaptive) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/adaptive.svg)](https://anaconda.org/conda-forge/adaptive) |
 
 Installing adaptive
 ===================
