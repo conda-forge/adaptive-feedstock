@@ -30,6 +30,7 @@ requirements:
     - ipykernel >=4.8.0
     - jupyter_client >=5.2.2
     - sortedcontainers
+    - sortedcollections
     - matplotlib
 
 test:
