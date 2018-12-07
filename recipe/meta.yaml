@@ -1,6 +1,6 @@
 {% set name = "adaptive" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "c806f042b8fa56d990b897c5f98026c734bc8318ea84ae8ccc52b2b121c5b7cb" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "d48ba9e1b51fd791827f75a8fc9b4535c7907ba6d1557970cfce0d3f26fce922" %}
 
 package:
   name: {{ name|lower }}
@@ -30,6 +30,7 @@ requirements:
     - ipykernel >=4.8.0
     - jupyter_client >=5.2.2
     - sortedcontainers
+    - sortedcollections
     - matplotlib
 
 test:
@@ -49,7 +50,7 @@ about:
     in parameter space. With just a few lines of code you can evaluate
     functions on a computing cluster, live-plot the data as it returns,
     and fine-tune the adaptive sampling algorithm.
-  doc_url: https://nbviewer.jupyter.org/github/python-adaptive/adaptive/blob/master/learner.ipynb
+  doc_url: http://adaptive.readthedocs.org
   dev_url: https://github.com/python-adaptive/adaptive/
 
 extra:
