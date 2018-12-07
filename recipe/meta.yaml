@@ -50,7 +50,7 @@ about:
     in parameter space. With just a few lines of code you can evaluate
     functions on a computing cluster, live-plot the data as it returns,
     and fine-tune the adaptive sampling algorithm.
-  doc_url: https://nbviewer.jupyter.org/github/python-adaptive/adaptive/blob/master/learner.ipynb
+  doc_url: http://adaptive.readthedocs.org
   dev_url: https://github.com/python-adaptive/adaptive/
 
 extra:
