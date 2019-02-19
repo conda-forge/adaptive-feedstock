@@ -1,6 +1,6 @@
 {% set name = "adaptive" %}
-{% set version = "0.7.2" %}
-{% set sha256 = "02b1fead0a4d05ac88335b35da7435b7a78ad4494220684ba7802da308146ccd" %}
+{% set version = "0.7.3" %}
+{% set sha256 = "0f2f7f654f4688e79c02b76f832ea6be1e9702808e8c498a7aa30a3d181e9217" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: true  # [py<36]
   script: python -m pip install --no-deps --ignore-installed .
 
