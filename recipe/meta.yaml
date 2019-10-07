@@ -1,6 +1,6 @@
 {% set name = "adaptive" %}
 {% set version = "0.9.0" %}
-{% set sha256 = "5e57c3b28dd280418c25793f523b7ff9bf1747a5b63d9d6978858ec71f41fac4" %}
+{% set sha256 = "4b2bf0bcc7bd008688483d1a768e683af18a69be9246d344b5ee993f03c45613" %}
 
 package:
   name: {{ name|lower }}
