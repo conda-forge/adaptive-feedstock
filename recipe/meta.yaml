@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ version }}.zip
-  url: https://github.com/python-adaptive/adaptive/archive/v{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adaptive_scheduler-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
