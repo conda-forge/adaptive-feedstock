@@ -32,6 +32,7 @@ requirements:
     - sortedcontainers
     - sortedcollections
     - matplotlib
+    - atomicwrites
 
 test:
   imports:
