@@ -1,6 +1,6 @@
 {% set name = "adaptive" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "ac3f8af2927cdb9b672575a6e3469b0ab2d2f022180857fc07f1fda9480ce416" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "941c0815528f93c8a031a2498923c046ee5d8541d928b79255593d22980c6573" %}
 
 package:
   name: {{ name|lower }}
@@ -8,13 +8,13 @@ package:
 
 source:
   fn: {{ version }}.zip
-  url: https://github.com/python-adaptive/adaptive/archive/v{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adaptive-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   number: 0
   skip: true  # [py<36]
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -32,6 +32,7 @@ requirements:
     - sortedcontainers
     - sortedcollections
     - matplotlib
+    - atomicwrites
 
 test:
   imports:
