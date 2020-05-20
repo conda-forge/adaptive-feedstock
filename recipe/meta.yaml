@@ -1,6 +1,6 @@
 {% set name = "adaptive" %}
-{% set version = "0.10.0" %}
-{% set sha256 = "9b0e87508c3829b5d815f8a456710a3a2856ab60e88606793664734c03d2b87f" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "3def1b0ac4275aab0b8d05dfd47edfb42c48ca642b6b9d25e2e0d8073eea1f64" %}
 
 package:
   name: {{ name|lower }}
@@ -22,17 +22,19 @@ requirements:
     - pip
   run:
     - python
-    - bokeh
-    - scipy
-    - holoviews >=1.9.1
-    - ipywidgets
-    - ipython
-    - ipykernel >=4.8.0
-    - jupyter_client >=5.2.2
-    - sortedcontainers
-    - sortedcollections
-    - matplotlib
     - atomicwrites
+    - bokeh
+    - holoviews >=1.9.1
+    - ipykernel >=4.8.0
+    - ipyparallel >=6.2.5
+    - ipython
+    - ipywidgets
+    - jupyter_client >=5.2.2
+    - loky
+    - matplotlib
+    - scipy
+    - sortedcollections >=1.1
+    - sortedcontainers >=2.0
 
 test:
   imports:
