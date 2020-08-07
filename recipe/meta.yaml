@@ -1,6 +1,6 @@
 {% set name = "adaptive" %}
-{% set version = "0.11.0" %}
-{% set sha256 = "3def1b0ac4275aab0b8d05dfd47edfb42c48ca642b6b9d25e2e0d8073eea1f64" %}
+{% set version = "0.11.1" %}
+{% set sha256 = "e4e218368a77c9bce02656d9342a9c7f4584f11b8976487b431fb53e91fe492d" %}
 
 package:
   name: {{ name|lower }}
@@ -45,7 +45,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Adaptive parallel sampling of mathematical functions'
+  summary: Adaptive parallel sampling of mathematical functions
   description: |
     adaptive is an open-source Python library designed to make adaptive
     parallel function evaluation simple. With adaptive you just supply a
