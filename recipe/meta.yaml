@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<36]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -31,7 +31,7 @@ requirements:
     - ipywidgets
     - jupyter_client >=5.2.2
     - loky
-    - matplotlib
+    - matplotlib-base
     - scipy
     - sortedcollections >=1.1
     - sortedcontainers >=2.0
