@@ -24,13 +24,14 @@ requirements:
     - python
     - atomicwrites
     - bokeh
+    - cloudpickle
     - holoviews >=1.9.1
     - ipykernel >=4.8.0
     - ipyparallel >=6.2.5
     - ipython
     - ipywidgets
     - jupyter_client >=5.2.2
-    - loky
+    - loky >=2.9.0
     - matplotlib-base
     - scipy
     - sortedcollections >=1.1
