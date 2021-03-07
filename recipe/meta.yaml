@@ -1,6 +1,6 @@
 {% set name = "adaptive" %}
-{% set version = "0.11.1" %}
-{% set sha256 = "e4e218368a77c9bce02656d9342a9c7f4584f11b8976487b431fb53e91fe492d" %}
+{% set version = "0.11.3" %}
+{% set sha256 = "4204ccb2975aba7f1bd032407a42663760ffe5ffcd6b57d8bbbf470f729bec39" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
   skip: true  # [py<36]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -24,13 +24,14 @@ requirements:
     - python
     - atomicwrites
     - bokeh
+    - cloudpickle
     - holoviews >=1.9.1
     - ipykernel >=4.8.0
     - ipyparallel >=6.2.5
     - ipython
     - ipywidgets
     - jupyter_client >=5.2.2
-    - loky
+    - loky >=2.9.0
     - matplotlib-base
     - scipy
     - sortedcollections >=1.1
