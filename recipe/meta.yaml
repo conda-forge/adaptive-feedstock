@@ -1,5 +1,5 @@
 {% set name = "adaptive" %}
-{% set version = "0.15.1" %}
+{% set version = "1.0.0" %}
 {% set sha256 = "94f0428119e3149dcf14ec56da6f77d23f41d8342133283c384fa0f26efc9bdc" %}
 
 package:
@@ -24,11 +24,11 @@ requirements:
     - python
     # Required dependencies
     - scipy
-    - sortedcollections >= 1.1
-    - sortedcontainers >= 2.0
+    - sortedcollections >=1.1
+    - sortedcontainers >=2.0
     - cloudpickle
     - loky >= 2.9
-    - typing_extensions; python_version < '3.10'
+    - typing_extensions  # [py<310]
     - versioningit
     # Optional dependencies
     - bokeh
