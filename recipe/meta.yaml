@@ -27,7 +27,7 @@ requirements:
     - sortedcollections >=1.1
     - sortedcontainers >=2.0
     - cloudpickle
-    - loky >= 2.9
+    - loky >=2.9
     - typing_extensions  # [py<310]
     - versioningit
     # Optional dependencies
