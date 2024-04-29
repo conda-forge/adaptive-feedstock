@@ -13,19 +13,19 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<39]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
+  noarch: python
 
 requirements:
   build:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
-    - python
+    - python >=3.9
     - pip
     - versioningit
   run:
-    - python
+    - python >=3.9
     # Required dependencies
     - scipy
     - sortedcollections >=1.1
@@ -42,7 +42,6 @@ requirements:
     - ipython
     - ipywidgets
     - jupyter_client >=5.2.2
-    - loky >=2.9.0
     - matplotlib-base
     - pandas
 
