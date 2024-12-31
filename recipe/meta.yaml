@@ -8,21 +8,21 @@ package:
 
 source:
   fn: {{ version }}.zip
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adaptive-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/adaptive-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - versioningit
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     # Required dependencies
     - scipy
     - sortedcollections >=1.1
@@ -43,6 +43,8 @@ requirements:
     - pandas
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - adaptive
 
