@@ -11,7 +11,7 @@ Summary: Adaptive parallel sampling of mathematical functions
 
 Development: https://github.com/python-adaptive/adaptive/
 
-Documentation: http://adaptive.readthedocs.org
+Documentation: http://adaptive.readthedocs.org/
 
 adaptive is an open-source Python library designed to make adaptive
 parallel function evaluation simple. With adaptive you just supply a
@@ -19,7 +19,6 @@ function with its bounds, and it will be evaluated at the "best" points
 in parameter space. With just a few lines of code you can evaluate
 functions on a computing cluster, live-plot the data as it returns,
 and fine-tune the adaptive sampling algorithm.
-
 
 Current build status
 ====================
