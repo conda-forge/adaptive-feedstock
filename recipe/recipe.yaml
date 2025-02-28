@@ -49,10 +49,7 @@ tests:
   - python:
       imports:
         - adaptive
-      python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - python ${{ python_min }}.*
+
 about:
   license: BSD-3-Clause
   license_file: LICENSE
