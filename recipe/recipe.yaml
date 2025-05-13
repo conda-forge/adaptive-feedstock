@@ -32,7 +32,6 @@ requirements:
     - sortedcontainers >=2.0
     - cloudpickle
     - loky >=2.9
-    - typing_extensions
     - versioningit
     # Optional dependencies
     - bokeh
