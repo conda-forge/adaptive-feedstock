@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: adaptive
-  version: 1.4.1
-  sha256: 7ba981e7793fbeb0f52cb961ee235979989fd8c72e3d3b77b69f747b75fa69eb
+  version: "1.4.2"
+  sha256: b213628a9bf5ba954386de66a5bd490a1301b941c402941ea57b8f66768ed8ed
   python_min: "3.11"
 
 package:
